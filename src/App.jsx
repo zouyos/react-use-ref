@@ -2,16 +2,16 @@ export function App() {
   return (
     <>
       <div>
-        <label>Code carte bancaire</label>
+        <label>Credit card number</label>
         <input type="number" name="creditCardNumber" />
       </div>
       <div>
-        <label>Code à 3 chiffres</label>
+        <label>Secret code</label>
         <input type="number" name="creditCardCode" />
       </div>
       <div>
-        <label>Expiration</label>
-        <input type="text" name="creditCardCode" />
+        <label>Expiration date</label>
+        <input type="text" name="creditCardExpiration" />
       </div>
     </>
   );
