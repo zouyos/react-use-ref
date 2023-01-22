@@ -2,11 +2,11 @@ export function App() {
   return (
     <>
       <div>
-        <label>Credit card number</label>
+        <label>Numéro carte bancaire</label>
         <input type="number" name="creditCardNumber" />
       </div>
       <div>
-        <label>Secret code</label>
+        <label>Code secret</label>
         <input type="number" name="creditCardCode" />
       </div>
       <div>
